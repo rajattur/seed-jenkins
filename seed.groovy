@@ -1,6 +1,6 @@
 jobs('seed-project-build'){
     scm {
-        git('git@github.com:rajattur/seed-jenkins.git') {  node -> // is hudson.plugins.git.GitSCM
+        git('git@github.com:rajattur/node-wedserver.git') {  node -> // is hudson.plugins.git.GitSCM
             node / gitConfigName('DSL User')
             node / gitConfigEmail('jenkins-dsl@newtech.academy')
         }
