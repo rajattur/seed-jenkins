@@ -1,4 +1,4 @@
-jobs('seed-project-build'){
+job('seed-project-build'){
     scm {
         git('git@github.com:rajattur/node-wedserver.git') {  node -> // is hudson.plugins.git.GitSCM
             node / gitConfigName('DSL User')
